@@ -1,4 +1,4 @@
-computational-neuroimaging-lab.github.io
-========================================
+PUCRS-Human-Connectome-Class-2014.github.io
+===========================================
 
-Computational NeuroImaging Lab homepage
+Course webpage for the 2014 PUCRS Human Connectome Class
