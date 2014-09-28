@@ -22,6 +22,11 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+div {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -48,20 +53,22 @@ table {
 
 /* LAYOUT STYLES */
 body {
+  padding: 50px 0;
   font-size: 1em;
   line-height: 1.5; 
-  background: #e7e7e7 url(../images/body-bg.png) 0 0 repeat;
+  background: #A7BBB1 url(../images/body-bg_g.png) 0 0 repeat;
+  /*background: #A7BBB1;*/
   font-family: 'Helvetica Neue', Helvetica, Arial, serif;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+  /*text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);*/
   color: #6d6d6d;
 }
 
 a {
   /* color: #d5000d*/
-  color: #d75920;
+  color: #275526;
 }
 a:hover {
-  color: #c7591f;  
+  color: #275526;  
   /*color: #c5000c*/;
 }
 
@@ -74,7 +81,7 @@ header h1 {
   font-family: 'Chivo', 'Helvetica Neue', Helvetica, Arial, serif; font-weight: 900;
   letter-spacing: -1px;
   font-size: 32px;
-  color: #303030;
+  color: #275526;
   /*color: #d75920;*/
   line-height: 1.2;
 }
@@ -82,24 +89,41 @@ header h1 {
 header h2 {
   letter-spacing: -1px;
   font-size: 24px;
-  color: #aaa;
+  color: #303030;
   font-weight: normal;
   line-height: 1.3;
+  margin-bottom: 0px;
+}
+
+header a {
+  /* color: #d5000d*/
+  color: #303030;
 }
 
 #container {
-  background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat;
-  min-height: 595px;
+    
+  background: #FFF;
+  /*min-height: 595px;*/
+
+  width: 960px;
+  margin: 0 auto;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 0 0 1px, rgba(0, 0, 0, 0.45) 0 3px 10px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 0 0 1px, rgba(0, 0, 0, 0.45) 0 3px 10px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 0 0 1px, rgba(0, 0, 0, 0.45) 0 3px 10px;
 }
 
 .inner {
-  /*width: 620px;*/
   width: 620px;
   margin: 0 auto;
 }
 
 #container .inner img {
-  max-width: 100%;
+ /* CC this was causing problems with slider max-width: 100%; */
 }
 
 #navbar {
@@ -145,35 +169,21 @@ a.navlink span {
 
 
 a.button {
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;                     
-  border-radius: 10px;
-  border-top: solid 1px #cbcbcb;
-  border-left: solid 1px #b7b7b7;
-  border-right: solid 1px #b7b7b7;
-  border-bottom: solid 1px #b3b3b3;
   color: #d75920;
-  line-height: 25px;
+  /*line-height: 25px;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 15px;*/
   padding: 6px 8px 6px 8px;
   display: block;
   float: left;
   /*width: 123px;*/
   margin-left: 7px;
   margin-right: 7px;  
-  background: #fdfdfd; /* Old browsers */
-  background: -moz-linear-gradient(top,  #fdfdfd 0%, #f2f2f2 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fdfdfd), color-stop(100%,#f2f2f2)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top,  #fdfdfd 0%,#f2f2f2 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top,  #fdfdfd 0%,#f2f2f2 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top,  #fdfdfd 0%,#f2f2f2 100%); /* IE10+ */
-  background: linear-gradient(top,  #fdfdfd 0%,#f2f2f2 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', endColorstr='#f2f2f2',GradientType=0 ); /* IE6-9 */
-  -webkit-box-shadow: 10px 10px 5px #888;
-  -moz-box-shadow: 10px 10px 5px #888;
-  box-shadow: 0px 1px 5px #e8e8e8;
+  background: #d75920; /* Old browsers */
 }
+
+
+
 /*a.button {
   -moz-border-radius: 30px;
   -webkit-border-radius: 30px;                     
@@ -204,18 +214,20 @@ a.button {
   box-shadow: 0px 1px 5px #e8e8e8;
   }*/
 a.button:hover {
-  border-top: solid 1px #b7b7b7;
-  border-left: solid 1px #b3b3b3;
-  border-right: solid 1px #b3b3b3;
-  border-bottom: solid 1px #b3b3b3;
-  background: #fafafa; /* Old browsers */
-  background: -moz-linear-gradient(top,  #fdfdfd 0%, #f6f6f6 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fdfdfd), color-stop(100%,#f6f6f6)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top,  #fdfdfd 0%,#f6f6f6 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top,  #fdfdfd 0%,#f6f6f6 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top,  #fdfdfd 0%,#f6f6f6 100%); /* IE10+ */
-  background: linear-gradient(top,  #fdfdfd 0%,#f6f6f6, 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
+}
+
+a.button cv{
+  color: #d75920;
+  /*line-height: 25px;
+  font-weight: bold;
+  font-size: 15px;*/
+  padding: 6px 8px 6px 8px;
+  display: block;
+  float: left;
+  /*width: 123px;*/
+  margin-left: 7px;
+  margin-right: 7px;  
+  background: #d75920; /* Old browsers */
 }
 
 a.button span {
@@ -290,6 +302,24 @@ ul, ol, dl {
   margin-bottom: 20px;
 }
 
+#dev7link {
+    position:absolute;
+    top:0;
+    left:50px;
+    background:url(images/dev7logo.png) no-repeat;
+    width:60px;
+    height:67px;
+    border:0;
+    display:block;
+    text-indent:-9999px;
+}
+
+.slider-wrapper { 
+	width: 100%; 
+	margin: 10px auto;
+}
+
+
 
 /* COMMON STYLES */
 
@@ -335,6 +365,7 @@ form {
 /* GENERAL ELEMENT TYPE STYLES */
 
 h1 {
+  color: #303030;
   font-size: 32px;
 } 
 

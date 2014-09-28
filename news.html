@@ -9,6 +9,8 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
     <link rel="stylesheet" href="stylesheets/bib-publication-list.css"/>
+    <link rel="stylesheet" href="stylesheets/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="stylesheets/nivo-slider.css" type="text/css" media="screen" />
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -21,8 +23,9 @@
 
         <header>
           <center>
-          <h1>Computational NeuroImaging Laboratory</h1>
-          <h2>Nathan S. Kline Institute for Psychiatric Research</h2>
+          <h1>Computational Neuroimaging Laboratory</h1>
+          <h2><a href="http://www.rfmh.org/nki/">Nathan S. Kline Institute for Psychiatric Research</a></h2>
+          <h2><a href="http://www.childmind.org">Child Mind Institute</a></h2>
           <!--<h2>News</h2>-->
         </header>
 
@@ -31,64 +34,26 @@
         <a href="members.html"  id="members" class="navlink"> Lab Members</a>
         <a href="projects.html" id="projects" class="navlink"> Projects</a> 
         <a href="publications.html" id="pubs" class="navlink"> Publications</a>
-        <a href="news.html" id="pubs" class="navlink"> News</a> 
-        <a href="https://github.com/computational-neuroimaging-lab" id="github" class="navlink"></span> Github</a>
+        <a href="news.html" id="news" class="navlink"> News</a> 
+        <a href="https://github.com/computational-neuroimaging-lab" id="github" class="navlink" target="_blank"></span> Github</a>
         
         </section>
 
         <hr>
 
         <section id="main_content">
-            <h1>Lab Materials</h1>
-
-<p>Each day of the course will end with one or two brief lab sessions during which we will demonstrate software and techniques for working with connectomics data. In particular, these will provide tutorials that will assist the students of <em>0407-03: Instrumentação Biomédica e Imagens Médicas</em> complete their research project. Each lab session will last roughly 30 minutes. In addition to the information listed below, lab materials will be available on the <a href="https://github.com/PUCRS-Human-Connectome-Class-2014">course&#39;s github repository</a>.</p>
-
-<h3><a name="lab1"></a> Lab #1: Working with neuroimaging data using Python and Nipy</h3>
-
-<p><strong>Monday,  July 28</strong><br>
-<strong>Instructor</strong>: <a href="mailto:CAROL.FROHLICH@GMAIL.COM">Caroline Froehlich</a><br>
-<strong>Objective</strong>: <a href="https://www.python.org/">Python</a> is quickly becoming the predominate programming language for neuroimaging research. This is due in part to the overall popularity of python, but also reflects the maturity Python resources, such as <a href="http://nipy.org/">Nipy</a>, for working with neuroimaging data. This demonstration will provide a brief overview Python and Nipy, that is aimed at course attendees who are familiar with programming. During this demonstration, attendees will learn to write Python scripts to read, write, and visualize neuroimaging data, as well as perform basic manipulations on the data such as ROI time series extraction, and calculating basic functional connectivity measures.<br>
-<strong>Resources</strong>: <a href="https://www.python.org/">Python web page</a>, <a href="http://nipy.org/">Nipy web page</a>, <a href="">Python Notebook</a></p>
-
-<h3><a name="lab2"></a> Lab #2: Open Science resources for connectomes research</h3>
-
-<p><strong>Monday, July 28</strong><br>
-<strong>Instructor</strong>: <a href="mailto:cameron.craddock@gmail.com">Cameron Craddock</a><br>
-<strong>Objective</strong>: Grass-roots and centralized initiatives such as the <a href="https://fcon_1000.projects.nitrc.org">International Neuroimaging Data-Sharing Initiative</a>, <a href="">The Human Connectome Project</a>, <a href="">The Preprocessed Connectomes Project</a>, and <a href="https://openfmri.org">OpenFMRI</a> are amassing and sharing raw and preprocessed neuroimaging data. These Open Science initiatives combined with the plethora of free software tools for performing analysis, has made tools and data necessary to perform neuroimaging analysis accessible to everyone. This 30 minute lecture will provide a survey of these various resources.<br>
-<strong>Resources</strong>: <a href="">list of open science data repositories and tools</a>, <a href="">slides</a></p>
-
-<h3><a name="lab3"></a> Lab #3: Preprocessing fMRI data using CPAC</h3>
-
-<p><strong>Tuesday, July 29</strong><br>
-<strong>Instructor</strong>: <a href="mailto:cameron.craddock@gmail.com">Cameron Craddock</a><br>
-<strong>Objective</strong>: The <a href="http://fcp-indi.github.io/">Configurable Pipeline for the Analysis of Connectomes (CPAC)</a> is an open-source toolkit for preforming connectomes preprocessing and analyses on fMRI data. CPAC is written in Python using the <a href="http://nipy.sourceforge.net/nipype/">Nipype</a> pipelining library, and integrates tools from several different neuroimaging software packages (<a href="http://afni.nimh.nih.gov/afni/">AFNI</a>, <a href="http://stnava.github.io/ANTs/">ANTs</a>, and <a href="http://fsl.fmrib.ox.ac.uk/fsl/fslwiki/">FSL</a>). The object of CPAC is to enable neuroimaging researchers who lack programming skills to perform state-of-the-art preprocessing and analyses on vary large datasets using high-performance computer resources in an infrastructure. This 30-minute tutorial will provide a overview of preprocessing data with CPAC, and evaluating the quality of the results.<br>
-<strong>Resources</strong>: <a href="http://fcp-indi.github.io/">CPAC website</a></p>
-
-<h3><a name="lab4"></a> Lab #4: Mapping functional connectome from fMRI</h3>
-
-<p><strong>Tuesday, July 29</strong><br>
-<strong>Instructor</strong>: <a href="mailto:CAROL.FROHLICH@GMAIL.COM">Caroline Froehlich</a><br>
-<strong>Objective</strong>: This 30-minute tutorial will illustrate the construction of connectome graphs from preprocessed fMRI datasets using Python, and Nipy, and visualize the results as both graphs and connectivity matrices.<br>
-<strong>Resources</strong>: <a href="https://nipy.org">Nipy webpage</a>, <a href="">Python Notebook</a></p>
-
-<h3><a name="lab5"></a> Lab #5: Mapping structural connectomes from dMRI</h3>
-
-<p><strong>Wednesday, July 30</strong><br>
-<strong>Instructor</strong>: <a href="mailto:guilherme.peixoto@acad.pucrs.br">Guilherme Peixoto</a><br>
-<strong>Objective</strong>: This hour long tutorial will demonstrate the generation of structural connectomes from preprocessing the raw data and estimating orientation distribution functions, through to fiber tracking and generating connectivity graphs.<br>
-<strong>Resources</strong>: <a href="https://science.nichd.nih.gov/confluence/display/nihpd/TORTOISE">Tortoise website</a>, <a href="http://trackvis.org/">TrackVis website</a>, <a href="http://ccn.ucla.edu/wiki/index.php/UCLA_Multimodal_Connectivity_Package">UCLA Multimodal Connectivity Package</a></p>
-
-<h3><a name="lab6"></a> Lab #6: Calculating graph statistics</h3>
-
-<p><strong>Thrusday, July 31</strong><br>
-<strong>Instructor</strong>: <a href="mailto:nathassia.aurich@acad.pucrs.br">Nathassia Aurich</a><br>
-<strong>Objective</strong>: This 30-minute long tutorial will demonstrate the calculation of graph invariants from structural and functional graphs using the <a href="https://sites.google.com/site/bctnet/">Brain Connectivity Toolbox website</a> and Matlab.<br>
-<strong>Resources</strong>: <a href="https://sites.google.com/site/bctnet/">Brain Connectivity Toolbox website</a></p>
+            <ul>
+<li><p>CNL&#39;s real time fMRI research featured in <a href="http://everydayhealth.com">everdayHEALTH</a> report by Dr. Sanjay Gupta: <a href="http://bcove.me/l5xpnmbv">Watch it here</a></p></li>
+<li><p>CNL Director Cameron Craddock receives 2013 NIMH Biobehavioral Research Award for Innovative New Scientists (NIMH BRAINS) R01 - See more at: <a href="http://www.nimh.nih.gov/about/director/2014/brains-a-new-research-generation.shtml">NIMH Director&#39;s Blog</a>, <a href="http://www.childmind.org/en/posts/press-releases/2013-11-14-nimh-recognizes-cameron-craddock">CMI Press Release</a></p></li>
+</ul>
 
         </section>
 
         <footer>
-          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+            <center>
+            <a href="http://www.rfmh.org"><img src="images/nki_logo.jpg" height = "84"></a><a href="http://www.childmind.org"><img src="images/cmi_logo.jpg" height="84"></a>
+        </center>
+              <center>Research in the Computational Neuroimaging Laboratory is financially supported by the <a href="http://www.nimh.nih.gov/index.shtml">National Istitute for Mental Health</a>, the <a href="https://bbrfoundation.org">Brain & Behaviour Research Foundation</a> (previous), the <a href="http://www.childmind.org">Child Mind Institute</a>, the <a href="http://www.omh.ny.gov/">New York State Office of Mental Health</a>, the <a href="http://corporate.rfmh.org">Research Foundation for Mental Hygiene, Inc.</a>, and the <a href="http://www.rfmh.org">Nathan S. Kline Institute for Psychiatric Research</a>.</center>
         </footer>
 
                   <script type="text/javascript">
