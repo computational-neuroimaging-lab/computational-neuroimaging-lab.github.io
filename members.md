@@ -16,8 +16,6 @@ title: Lab Members
 
 [Dave Lewis, PhD](mailto:LEWIS@NKI.RFMH.ORG) - Research Scientist, Nathan S. Kline Institute for Psychiatric Research, Orangeburg, NY. <a href=#>[CV]</a> <a href=# target="_blank">[Google scholar]</a> <a href=# target="_blank">[Impact Story]</a> <a href=#>[Github]</a>
 
-[Rosalia Tungaraza, PhD](mailto:Rosalia.Tungaraza@childmind.org) - Research Scientist, Child Mind Institute, New York, NY. <a href=#>[CV]</a> <a href=# target="_blank">[Google scholar]</a> <a href=# target="_blank">[Impact Story]</a> <a href="https://github.com/rltungar" target="_blank">[Github]</a>
-
 [Nicholas T. Van Damm, PhD](mailto:nvandam@nki.rfmh.org) - Research Scientist, Nathan S. Kline Institute for Psychiatric Research, Orangeburg, NY and Post Doctoral Fellow, Child Mind Institute, New York, NY. <a href=#>[CV]</a> <a href="http://scholar.google.com/citations?user=zgdwwSUAAAAJ&hl=en&oi=ao" target="_blank">[Google scholar]</a> <a href=# target="_blank">[Impact Story]</a> <a href=# target="_blank">[Github]</a>
 
 ## Staff
