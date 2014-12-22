@@ -4,7 +4,7 @@ title: Lab Members
 ---
 
 ## Director
-[R. Cameron Craddock, PhD](mailto:ccraddock@nki.rfmh.org) - Director, Computational Neuroimaging Lab, Nathan S. Kline Institute for Psychiatric Research, Orangeburg, NY and Director of Imaging, Center for the Developing Brain, Child Mind Institute, New York, NY. <a href="https://github.com/ccraddock/ccraddock_cv/blob/master/ccraddock_cv_latest.pdf?raw=true">[CV]</a> <a href="http://tinyurl.com/CameronCraddockCitations" target="_blank">[Google scholar]</a> <a href="https://impactstory.org/CameronCraddock" target="_blank">[Impact Story]</a> <a href="https://github.com/ccraddock" target="_blank">[Github]</a>
+[R. Cameron Craddock, PhD](mailto:ccraddock@nki.rfmh.org) Director, Computational Neuroimaging Lab, Nathan S. Kline Institute for Psychiatric Research, Orangeburg, NY and Director of Imaging, Center for the Developing Brain, Child Mind Institute, New York, NY. <a href="https://github.com/ccraddock/ccraddock_cv/blob/master/ccraddock_cv_latest.pdf?raw=true">[CV]</a> <a href="http://tinyurl.com/CameronCraddockCitations" target="_blank">[Google scholar]</a> <a href="https://impactstory.org/CameronCraddock" target="_blank">[Impact Story]</a> <a href="https://github.com/ccraddock" target="_blank">[Github]</a><span id="orcid" style='height:16px;margin:2px;'><a href="http://orcid.org/0000-0002-4950-1303" target="_blank"><img src="images/iDicon.png" target="_blank"/></a></span><span id="researchid" style='height:16px;margin:2px;'><a href="http://orcid.org/0000-0002-4950-1303"><img src="images/researchid.png" height="16px" target="_blank"/></a></span><span id="impactstory" style='height:16px;margin:2px;'><a href="https://impactstory.org/CameronCraddock"><img src="images/impactstory_logo_32.png" height="16px" target="_blank"/></a></span>
 
 ## Faculty
 
@@ -16,7 +16,7 @@ title: Lab Members
 
 [Dave Lewis, PhD](mailto:LEWIS@NKI.RFMH.ORG) - Research Scientist, Nathan S. Kline Institute for Psychiatric Research, Orangeburg, NY. <a href=#>[CV]</a> <a href=# target="_blank">[Google scholar]</a> <a href=# target="_blank">[Impact Story]</a> <a href=#>[Github]</a>
 
-[Nicholas T. Van Damm, PhD](mailto:nvandam@nki.rfmh.org) - Research Scientist, Nathan S. Kline Institute for Psychiatric Research, Orangeburg, NY and Post Doctoral Fellow, Child Mind Institute, New York, NY. <a href=#>[CV]</a> <a href="http://scholar.google.com/citations?user=zgdwwSUAAAAJ&hl=en&oi=ao" target="_blank">[Google scholar]</a> <a href=# target="_blank">[Impact Story]</a> <a href=# target="_blank">[Github]</a>
+[Nicholas T. Van Dam, PhD](mailto:nvandam@nki.rfmh.org) - Research Scientist, Nathan S. Kline Institute for Psychiatric Research, Orangeburg, NY and Post Doctoral Fellow, Child Mind Institute, New York, NY. <a href=#>[CV]</a> <a href="http://scholar.google.com/citations?user=zgdwwSUAAAAJ&hl=en&oi=ao" target="_blank">[Google scholar]</a> <a href=# target="_blank">[Impact Story]</a> <a href=# target="_blank">[Github]</a>
 
 ## Staff
 
