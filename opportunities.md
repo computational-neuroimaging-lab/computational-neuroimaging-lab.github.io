@@ -33,26 +33,4 @@ CMI reserves the right to modify the job description and/or reporting relationsh
 
 CMI is an Equal Opportunity Employer. CMI is committed to recruiting and maintaining a diverse staff; individuals from all backgrounds are strongly encouraged to apply.
 
-* * *
-
-### Research Assistant Position
-<a id="#ra"></a> Applications are currently being invited for a Research Assistant position available in the [Computational Neuroimaging Lab (CNL)](http://computational-neuroimaging-lab.org) at the [Child Mind Institute](http://www.childmind.org), under the direction of Cameron Craddock, PhD. Responsibilities will include developing open source software to implement algorithms for data analysis and preprocessing, data-base management, imaging quality control, data-analysis, and assisting with coordinating data-sharing initiatives. Applicants should have a B.S. in electrical engineering, biomedical engineering, computer science, or other related scientific fields. The ideal candidates will have prior research experience, strong interpersonal skills, strong written and oral communication, the ability to work as a member of a team as well as independently, and a keen interest in neuroscience.  
-
-####Qualifications: 
-- B.S./B.E. in electrical engineering, biomedical engineering, computer science, or other related scientific fields.
-- Strong programming skills in C, C++, Python, Matlab, or similar languages.
-- Prior research experience (preferred).
-
-####Salary and Anticipated Start Date:  
-Salary is competitive and commensurate with experience/educational qualifications.  Benefits include health, vision, and dental. Anticipated Start Date is immediate.
-
-####Application details: 
-Please email [cameron.craddock@childmind.org](mailto://cameron.craddock@childmind.org) to apply, please include a CV including the names of 3 references with your inquiry.
-
-Employment at Will Relationship: This position description does not constitute a guarantee that employment will continue for any specified period of time. Rather, employment is at the mutual consent of the employee and CMI, and can be terminated at will by the employee or by CMI.
-
-CMI reserves the right to modify the job description and/or reporting relationship at any time.
-
-CMI is an Equal Opportunity Employer. CMI is committed to recruiting and maintaining a diverse staff; individuals from all backgrounds are strongly encouraged to apply.
-
 
