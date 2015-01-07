@@ -2,7 +2,7 @@
 layout: page
 title: Opportunities
 ---
-## There are two job openings in the CNL
+## There is one job opening in the CNL
 
 
 ###  Post-Doctoral Fellow Position
