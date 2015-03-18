@@ -22,7 +22,7 @@ title: Lab Members
 
 [Daniel J. Clark, MS](mailto:daniel.clark@childmind.org) - Research Engineer, Child Mind Institute, New York, NY. <a href=#>[CV]</a> <a href=# target="_blank">[Google scholar]</a> <a href=# target="_blank">[Impact Story]</a> <a href="https://github.com/dclark87" target="_blank">[Github]</a>
 
-[Carol Froehlich, MS](mailto:Caroline Froehlich <Caroline.Froehlich@childmind.org>) - Research Assistant, Nathan S. Kline Institute for Psychiatric Research, Orangeburg, NY. <a href=#>[CV]</a> <a href=# target="_blank">[Google scholar]</a> <a href=# target="_blank">[Impact Story]</a> <a href="https://github.com/carolFrohlich" target="_blank">[Github]</a>
+[Carol Froehlich, MS](mailto:Caroline.Froehlich@childmind.org) - Research Assistant, Nathan S. Kline Institute for Psychiatric Research, Orangeburg, NY. <a href=#>[CV]</a> <a href=# target="_blank">[Google scholar]</a> <a href=# target="_blank">[Impact Story]</a> <a href="https://github.com/carolFrohlich" target="_blank">[Github]</a>
 
 [Steven Giavasis, MS](mailto:steven.giavasis@childmind.org) - Research Engineer, Child Mind Institute, New York, NY. <a href=#>[CV]</a> <a href=# target="_blank">[Google scholar]</a> <a href=# target="_blank">[Impact Story]</a> <a href="https://github.com/sgiavasis" target="_blank">[Github]</a>
 
