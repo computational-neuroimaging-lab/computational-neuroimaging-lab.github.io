@@ -5,9 +5,9 @@ title: Homepage
 
 <div class="slider-wrapper theme-default">
     <div id="slider" class="nivoSlider">
+		<a href="opportunities.html" target="_blank"><img src="images/beaut.png" data-thumb="images/beaut.png" alt="" title="Two Post-Doctoral Fellow positions are available in the CNL"/>
         <a href="http://ccraddock.github.io/cluster_roi/" target="_blank"><img src="images/ROIS_fig_2row.png" data-thumb="images/roi_fig_white_2row.png" alt="" title="Whole brain functional parcellation"/></a>
         <a href="http://preprocessed-connectomes-project.github.io" target="_blank"><img src="images/struct_preproc.png" data-thumb="images/struct_preproc.png" alt="" title="Preprocessed Connectomes Project" /></a>
-        <img src="images/beaut.png" data-thumb="images/beaut.png" alt="" />
         <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=23707580" target="_blank"><img src="images/predictions.jpg" data-thumb="images/predictions.jpg" alt="" title="Predicting intrinsic brain activity" />
         <!--<a href="" target="_blank"><img src="images/predictions.jpg" data-thumb="images/predictions.jpg" alt="" title="#htmlcaption" /> -->
     </div>
