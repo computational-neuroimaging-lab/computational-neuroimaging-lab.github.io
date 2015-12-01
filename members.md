@@ -31,4 +31,4 @@ title: Lab Members
 
 ## Former Members 
 
-[Nicholas T. Van Dam, PhD](www.nicholastvandam.com) - currently Post Doctoral Fellow, Department of Psychiatry, Ichan School of Medicine at Mount Sinai, New York, NY.
+[Nicholas T. Van Dam, PhD](http://www.nicholastvandam.com) - currently Post Doctoral Fellow, Department of Psychiatry, Ichan School of Medicine at Mount Sinai, New York, NY.
