@@ -16,7 +16,6 @@ title: Lab Members
 
 [Dave Lewis, PhD](mailto:LEWIS@NKI.RFMH.ORG) - Research Scientist, Nathan S. Kline Institute for Psychiatric Research, Orangeburg, NY. <a href=#>[CV]</a> <a href=# target="_blank">[Google scholar]</a> <a href=# target="_blank">[Impact Story]</a> <a href=#>[Github]</a>
 
-[Nicholas T. Van Dam, PhD](mailto:nvandam@nki.rfmh.org) - Research Scientist, Nathan S. Kline Institute for Psychiatric Research, Orangeburg, NY and Post Doctoral Fellow, Child Mind Institute, New York, NY. <a href=#>[CV]</a> <a href="http://scholar.google.com/citations?user=zgdwwSUAAAAJ&hl=en&oi=ao" target="_blank">[Google scholar]</a> <a href=# target="_blank">[Impact Story]</a> <a href=# target="_blank">[Github]</a>
 
 ## Staff
 
@@ -29,3 +28,7 @@ title: Lab Members
 [Amalia McDonald, BA](mailto:amcdonald@NKI.RFMH.ORG) - Research Assistant, Nathan S. Kline Institute for Psychiatric Research, Orangeburg, NY. <a href=#>[CV]</a> <a href=# target="_blank">[Google scholar]</a> <a href=# target="_blank">[Impact Story]</a> <a href="https://github.com/mcdoar9" target="_blank">[Github]</a>
 
 [John Pellman, BA](mailto:john.pellman@childmind.org) - Research Assistant, Child Mind Institute, New York, NY. <a href=#>[CV]</a> <a href=# target="_blank">[Google scholar]</a> <a href=# target="_blank">[Impact Story]</a> <a href="https://github.com/jpellman" target="_blank">[Github]</a>
+
+## Former Members 
+
+[Nicholas T. Van Dam, PhD](mailto:nvandam@nki.rfmh.org) - currently Post Doctoral Fellow, Department of Psychiatry, Ichan School of Medicine at Mount Sinai, New York, NY.
