@@ -14,12 +14,11 @@ title: Lab Members
 
 [Dave Lewis, PhD](mailto:LEWIS@NKI.RFMH.ORG) - Research Scientist, Nathan S. Kline Institute for Psychiatric Research, Orangeburg, NY. 
 
+[Jordan Muraskin, PhD](mailto:jordan.muraskin@nki.rfmh.org) - Post Doctoral Fellow, Nathan S. Kline Institute for Psychiatric Research, Orangeburg, NY. <a href="https://github.com/jordanmuraskin">[Github]</a> <a href="https://scholar.google.com/citations?user=gMmDkl0AAAAJ&hl=en&oi=ao">[Google Scholar]</a>
 
 [James Pooley, PhD](mailto:James.Pooley@childmind.org) - Post Doctoral Fellow, Child Mind Institute, New York, NY. <a href="https://github.com/jamespooley">[Github]</a>
 
 ## Staff
-
-[Daniel J. Clark, MS](mailto:daniel.clark@childmind.org) - Research Engineer, Child Mind Institute, New York, NY. <a href="https://github.com/dclark87" target="_blank">[Github]</a>
 
 [Carol Froehlich, MS](mailto:Caroline.Froehlich@childmind.org) - Research Assistant, Nathan S. Kline Institute for Psychiatric Research, Orangeburg, NY. <a href="https://scholar.google.com/citations?user=pTllHvAAAAAJ&hl=en&oi=ao" target="_blank">[Google scholar]</a><a href="https://github.com/carolFrohlich" target="_blank">[Github]</a>
 
@@ -32,5 +31,8 @@ title: Lab Members
 [Benjamin Puccio, BS](mailto:BPuccio@NKI.RFMH.ORG) - Research Assistant, Nathan S. Kline Institute for Psychiatric Research, Orangeburg, NY.
 
 ## Former Members 
+
+
+[Daniel J. Clark, MS](mailto:daniel.clark@childmind.org) - currently Programmer, <a href="https://www.knewton.com/">Knewton</a>, New York, NY.  <a href="https://github.com/dclark87" target="_blank">[Github]</a>
 
 [Nicholas T. Van Dam, PhD](http://www.nicholastvandam.com) - currently Post Doctoral Fellow, Department of Psychiatry, Ichan School of Medicine at Mount Sinai, New York, NY.
