@@ -4,7 +4,7 @@ title: Lab Members
 ---
 
 ## Director
-[R. Cameron Craddock, PhD](mailto:ccraddock@nki.rfmh.org) Director, Computational Neuroimaging Lab, Nathan S. Kline Institute for Psychiatric Research, Orangeburg, NY, Director of Imaging, Center for the Developing Brain, Child Mind Institute, New York, NY and Research Professor, Department of Computer Science and Engineering, NYU Tandon School of Engineering, Brooklyn, NY. <a href="https://github.com/ccraddock/ccraddock_cv/blob/master/ccraddock_cv_latest.pdf?raw=true">[CV]</a> <a href="https://github.com/ccraddock" target="_blank">[Github]</a> <a href="http://tinyurl.com/CameronCraddockCitations" target="_blank">[Google scholar]</a> <a href="https://impactstory.org/CameronCraddock" target="_blank">[Impact Story]</a> <a href="http://orcid.org/0000-0002-4950-1303" target="_blank">[ORCID]</a> <a href="http://www.researcherid.com/rid/P-1980-2014" target="_blank">[Researcher ID]</a> <a href="https://www.researchgate.net/profile/Cameron_Craddock" target="_blank">[ResearchGate]</a> 
+[R. Cameron Craddock, PhD](mailto:ccraddock@nki.rfmh.org) Director, Computational Neuroimaging Lab, Nathan S. Kline Institute for Psychiatric Research, Orangeburg, NY, Director of Imaging, Center for the Developing Brain, Child Mind Institute, New York, NY and Research Professor, Department of Computer Science and Engineering, NYU Tandon School of Engineering, Brooklyn, NY. <a href="https://github.com/ccraddock/ccraddock_cv/blob/master/ccraddock_cv_latest.pdf?raw=true">[CV]</a> <a href="https://github.com/ccraddock" target="_blank">[Github]</a> <a href="http://tinyurl.com/CameronCraddockCitations" target="_blank">[Google scholar]</a> <a href="https://impactstory.org/CameronCraddock" target="_blank">[Impact Story]</a> <a href="http://orcid.org/0000-0002-4950-1303" target="_blank">[ORCID]</a> <a href="http://www.researcherid.com/rid/P-1980-2014" target="_blank">[Researcher ID]</a> <a href="https://www.researchgate.net/profile/Cameron_Craddock" target="_blank">[ResearchGate]</a>
 
 ## Faculty
 
@@ -12,7 +12,7 @@ title: Lab Members
 
 [Sang Han Lee, PhD](mailto:SHLee@NKI.RFMH.ORG) - Research Scientist, Nathan S. Kline Institute for Psychiatric Research, Orangeburg, NY.
 
-[Dave Lewis, PhD](mailto:LEWIS@NKI.RFMH.ORG) - Research Scientist, Nathan S. Kline Institute for Psychiatric Research, Orangeburg, NY. 
+[Dave Lewis, PhD](mailto:LEWIS@NKI.RFMH.ORG) - Research Scientist, Nathan S. Kline Institute for Psychiatric Research, Orangeburg, NY.
 
 [Jordan Muraskin, PhD](mailto:jordan.muraskin@nki.rfmh.org) - Post Doctoral Fellow, Nathan S. Kline Institute for Psychiatric Research, Orangeburg, NY. <a href="https://github.com/jordanmuraskin">[Github]</a> <a href="https://scholar.google.com/citations?user=gMmDkl0AAAAJ&hl=en&oi=ao">[Google Scholar]</a>
 
@@ -24,15 +24,17 @@ title: Lab Members
 
 [Steven Giavasis, MS](mailto:steven.giavasis@childmind.org) - Research Engineer, Child Mind Institute, New York, NY.  <a href="https://github.com/sgiavasis" target="_blank">[Github]</a>
 
-[Amalia McDonald, BA](mailto:amcdonald@NKI.RFMH.ORG) - Research Assistant, Nathan S. Kline Institute for Psychiatric Research, Orangeburg, NY. <a href="https://github.com/mcdoar9" target="_blank">[Github]</a>
+[David O'Connor, MS](mailto:david.oconnor@childmind.org) - Data Analyst, Child Mind Institute, New York, NY. <a href="https://github.com/https://github.com/DaveOC90" target="_blank">[Github]</a>
 
 [John Pellman, BA](mailto:john.pellman@childmind.org) - Research Assistant, Child Mind Institute, New York, NY. <a href="https://github.com/jpellman" target="_blank">[Github]</a>
 
-[Benjamin Puccio, BS](mailto:BPuccio@NKI.RFMH.ORG) - Research Assistant, Nathan S. Kline Institute for Psychiatric Research, Orangeburg, NY.
 
-## Former Members 
+## Former Members
 
+Daniel J. Clark, MS - currently Programmer, <a href="https://www.knewton.com/">Knewton</a>, New York, NY.  <a href="https://github.com/dclark87" target="_blank">[Github]</a>
 
-[Daniel J. Clark, MS](mailto:daniel.clark@childmind.org) - currently Programmer, <a href="https://www.knewton.com/">Knewton</a>, New York, NY.  <a href="https://github.com/dclark87" target="_blank">[Github]</a>
+Amalia McDonald, BA - currently, graduate student, Department of Psychology, University of Virginia, Charlottesville, VA. <a href="https://github.com/mcdoar9" target="_blank">[Github]</a>
+
+Benjamin Puccio, BS - currently, medical student, Krakow, Poland.
 
 [Nicholas T. Van Dam, PhD](http://www.nicholastvandam.com) - currently Post Doctoral Fellow, Department of Psychiatry, Ichan School of Medicine at Mount Sinai, New York, NY.
