@@ -5,12 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/octicons.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
     <link rel="stylesheet" href="stylesheets/bib-publication-list.css"/>
     <link rel="stylesheet" href="stylesheets/default/default.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="stylesheets/nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="stylesheets/bootstrap.min.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="stylesheets/font-awesome.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="stylesheets/bootstrap-social.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="stylesheets/academicons.css"/>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -29,46 +33,54 @@
           <!--<h2>Homepage</h2>-->
         </header>
 
-        <section id="navbar" class="clearfix">
-        <a href="index.html"  id="home" class="navlink"> Overview</a> 
-        <a href="members.html"  id="members" class="navlink"> Lab Members</a>
-        <a href="projects.html" id="projects" class="navlink"> Projects</a> 
-        <a href="publications.html" id="pubs" class="navlink"> Publications</a>
-        <a href="news.html" id="news" class="navlink"> News</a>
-		<a href="opportunities.html" id="news" class="navlink"> Job Openings</a>
-        <a href="https://github.com/computational-neuroimaging-lab" id="github" class="navlink" target="_blank"></span> Github</a>
-        
-        </section>
-
+<div class="navbar">
+  <ul class="nav nav-justified" id="myNav">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="members.html">Members</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="publications.html">Publications</a></li>
+    <li><a href="opportunities.html">Jobs</a></li>
+    <li><a href="https://github.com/computational-neuroimaging-lab">Github</a></li>
+  </ul>
+</div>
         <hr>
 
         <section id="main_content">
             <div class="slider-wrapper theme-default">
     <div id="slider" class="nivoSlider">
-        <a href="projects.html" target="_blank"><img src="images/beaut.png" data-thumb="images/beaut.png" alt="" title="Mapping inter-individual variation in the Connectome"/>
-        <a href="http://ccraddock.github.io/cluster_roi/" target="_blank"><img src="images/ROIS_fig_2row.png" data-thumb="images/roi_fig_white_2row.png" alt="" title="Whole brain functional parcellation"/></a>
+        <a href="opportunities.html" target="_blank"><img src="images/beaut.png" data-thumb="images/beaut.png" alt="" title="Two Post-Doctoral Fellow positions are available in the CNL" /></a>
+        <!-- <a href="projects.html" target="_blank"><img src="images/beaut.png" data-thumb="images/beaut.png" alt="" title="Mapping inter-individual variation in     the     Connectome"/></a> -->
+        <a href="http://ccraddock.github.io/cluster_roi/" target="_blank"><img src="images/ROIS_fig_2row.png" data-thumb="images/roi_fig_white_2row.png" alt="" title="Whole brain functional parcellation" /></a>
         <a href="http://preprocessed-connectomes-project.github.io" target="_blank"><img src="images/struct_preproc.png" data-thumb="images/struct_preproc.png" alt="" title="Preprocessed Connectomes Project" /></a>
-        <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=23707580" target="_blank"><img src="images/predictions.jpg" data-thumb="images/predictions.jpg" alt="" title="Predicting intrinsic brain activity" />
-        <!--<a href="" target="_blank"><img src="images/predictions.jpg" data-thumb="images/predictions.jpg" alt="" title="#htmlcaption" /> -->
+        <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=23707580" target="_blank"><img src="images/predictions.jpg" data-thumb="images/predictions.jpg" alt="" title="Predicting intrinsic brain activity" /></a>
     </div>
-    <!--
-    <div id="htmlcaption" class="nivo-html-caption">
-        <strong><a href="#">Predicting intrinsic brain activity</a>. 
-    </div>
-    -->
 </div>
-
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
 
 <script type="text/javascript" src="javascripts/jquery.nivo.slider.js"></script>
 
 <script type="text/javascript">
-    $(window).load(function() {
-        $('#slider').nivoSlider();
-    });
+$(window).load(function() {
+$('#slider').nivoSlider();
+});
 </script>
 
-<p>The Computational Neuroimaging Lab is a subdivision of the <a href="http://claymore.rfmh.org/">Center for Biomedical Imaging and Neuromodulation</a> at the <a href="http://www.rfmh.org">Nathan S. Kline Institute from Psychiatric Research</a> and the <a href="http://www.childmind.org/en/center-for-developing-brain/">Center for the Developing Brain</a> at the <a href="http://www.childmind.org">Child Mind Institute</a>. The lab&#39;s research agenda involves the development of novel computational analysis and experimental techniques for determining how brain function and structure are impacted by mental illness and development. Ongoing projects involve developing real-time fMRI experiments to evaluate the interaction between brain networks, applying machine learning and signal processing methods to map inter-individual variation in the human connectome, and optimizing MRI acquisition for pediatric and psychiatric populations. Additionally, the CNL is a strong supporter of open science as exemplified by developing the <a href="http://fcp-indi.github.io">Configurable Pipeline for the Analysis of Connectomes</a> open source software package, openly sharing data through the <a href="http://fcon_1000.projects.nitrc.org">International Neuroimaging Datasharing Initiative</a>, and spearheading the <a href="http://preprocessed-connectomes-project.github.io">Preprocessed Connectomes Project</a>.</p>
+<p>The Computational Neuroimaging Lab is a subdivision of the <a href="http://claymore.rfmh.org/">Center for Biomedical Imaging and Neuromodulation</a> at the <a href="http://www.rfmh.org">Nathan S. Kline Institute from Psychiatric Research</a> and the <a href="http://www.childmind.org/en/center-for-developing-brain/">Center for the Developing Brain</a> at the <a href="http://www.childmind.org">Child Mind Institute</a>. The lab’s research agenda involves the development of novel computational analysis and experimental techniques for determining how brain function and structure are impacted by mental illness and development. Ongoing projects involve developing real-time fMRI experiments to evaluate the interaction between brain networks, applying machine learning and signal processing methods to map inter-individual variation in the human connectome, and optimizing MRI acquisition for pediatric and psychiatric populations. Additionally, the CNL is a strong supporter of open science as exemplified by developing the <a href="http://fcp-indi.github.io">Configurable Pipeline for the Analysis of Connectomes</a> open source software package, openly sharing data through the <a href="http://fcon_1000.projects.nitrc.org">International Neuroimaging Datasharing Initiative</a>, and spearheading the <a href="http://preprocessed-connectomes-project.github.io">Preprocessed Connectomes Project</a>.</p>
+
+<h2 id="news">News</h2>
+
+<ul>
+  <li>
+    <p><a href="opportunities.html" target="_blank">Two Post-Doctoral Fellow positions are available in the CNL</a></p>
+  </li>
+  <li>
+    <p>CNL’s real time fMRI research featured in <a href="http://everydayhealth.com">everdayHEALTH</a> report by Dr. Sanjay Gupta: <a href="http://bcove.me/l5xpnmbv">Watch it here</a></p>
+  </li>
+  <li>
+    <p>CNL Director Cameron Craddock receives 2013 NIMH Biobehavioral Research Award for Innovative New Scientists (NIMH BRAINS) R01 - See more at: <a href="http://www.nimh.nih.gov/about/director/2014/brains-a-new-research-generation.shtml">NIMH Director’s Blog</a>, <a href="http://www.childmind.org/en/posts/press-releases/2013-11-14-nimh-recognizes-cameron-craddock">CMI Press Release</a></p>
+  </li>
+</ul>
+
 
         </section>
 
@@ -85,6 +97,7 @@
           </script>
           <script type="text/javascript">
             try {
+              window.onresize = function(){ location.reload(); }
               var pageTracker = _gat._getTracker("UA-53194826-1");
             pageTracker._trackPageview();
             } catch(err) {}

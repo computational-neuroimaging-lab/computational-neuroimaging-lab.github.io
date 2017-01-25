@@ -5,12 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/octicons.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
     <link rel="stylesheet" href="stylesheets/bib-publication-list.css"/>
     <link rel="stylesheet" href="stylesheets/default/default.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="stylesheets/nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="stylesheets/bootstrap.min.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="stylesheets/font-awesome.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="stylesheets/bootstrap-social.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="stylesheets/academicons.css"/>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -29,17 +33,16 @@
           <!--<h2>Publications</h2>-->
         </header>
 
-        <section id="navbar" class="clearfix">
-        <a href="index.html"  id="home" class="navlink"> Overview</a> 
-        <a href="members.html"  id="members" class="navlink"> Lab Members</a>
-        <a href="projects.html" id="projects" class="navlink"> Projects</a> 
-        <a href="publications.html" id="pubs" class="navlink"> Publications</a>
-        <a href="news.html" id="news" class="navlink"> News</a>
-		<a href="opportunities.html" id="news" class="navlink"> Job Openings</a>
-        <a href="https://github.com/computational-neuroimaging-lab" id="github" class="navlink" target="_blank"></span> Github</a>
-        
-        </section>
-
+<div class="navbar">
+  <ul class="nav nav-justified" id="myNav">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="members.html">Members</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="publications.html">Publications</a></li>
+    <li><a href="opportunities.html">Jobs</a></li>
+    <li><a href="https://github.com/computational-neuroimaging-lab">Github</a></li>
+  </ul>
+</div>
         <hr>
 
         <section id="main_content">
@@ -51,7 +54,6 @@
 </noscript>
 
 <table id="pubTable" class="display"></table>
-
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
 
 <script type="text/javascript" src="javascripts/bib-list.js"></script>
@@ -61,6 +63,7 @@
         bibtexify("cnl_pubs.bib", "pubTable",{'tweet': 'RCCraddock'});
     });
 </script>
+
 
         </section>
 
@@ -77,6 +80,7 @@
           </script>
           <script type="text/javascript">
             try {
+              window.onresize = function(){ location.reload(); }
               var pageTracker = _gat._getTracker("UA-53194826-1");
             pageTracker._trackPageview();
             } catch(err) {}

@@ -5,12 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/octicons.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
     <link rel="stylesheet" href="stylesheets/bib-publication-list.css"/>
     <link rel="stylesheet" href="stylesheets/default/default.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="stylesheets/nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="stylesheets/bootstrap.min.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="stylesheets/font-awesome.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="stylesheets/bootstrap-social.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="stylesheets/academicons.css"/>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -29,41 +33,37 @@
           <!--<h2>Publications</h2>-->
         </header>
 
-        <section id="navbar" class="clearfix">
-        <a href="index.html"  id="home" class="navlink"> Overview</a> 
-        <a href="members.html"  id="members" class="navlink"> Lab Members</a>
-        <a href="projects.html" id="projects" class="navlink"> Projects</a> 
-        <a href="publications.html" id="pubs" class="navlink"> Publications</a>
-        <a href="news.html" id="news" class="navlink"> News</a>
-		<a href="opportunities.html" id="news" class="navlink"> Job Openings</a>
-        <a href="https://github.com/computational-neuroimaging-lab" id="github" class="navlink" target="_blank"></span> Github</a>
-        
-        </section>
-
+<div class="navbar">
+  <ul class="nav nav-justified" id="myNav">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="members.html">Members</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="publications.html">Publications</a></li>
+    <li><a href="opportunities.html">Jobs</a></li>
+    <li><a href="https://github.com/computational-neuroimaging-lab">Github</a></li>
+  </ul>
+</div>
         <hr>
 
         <section id="main_content">
-            <h2>Real-time fMRI Neurofeedback Based Stratification of Default Network Regulation</h2>
+            <h2 id="real-time-fmri-neurofeedback-based-stratification-of-default-network-regulation">Real-time fMRI Neurofeedback Based Stratification of Default Network Regulation</h2>
+<p>This project capitalizes on recent innovations in real-time fMRI (RT-fMRI) based neurofeedback to provide a dimensional profile of DN regulation that can be linked to cognitive and psychiatric phenotyping profiles, as well as underlying brain architecture. <em>This project is funded by NIMH BRAINS RO1: 1R01MH101555-01.</em></p>
 
-<p>This project capitalizes on recent innovations in real-time fMRI (RT-fMRI) based neurofeedback to provide a dimensional profile of DN regulation that can be linked to cognitive and psychiatric phenotyping profiles, as well as underlying brain architecture. <em>This project is funded by NIMH BRAINS RO1: 1R01MH101555-01.</em>  </p>
-
-<h2>Configurable Pipeline for the Analysis of Connectomes</h2>
-
+<h2 id="configurable-pipeline-for-the-analysis-of-connectomes">Configurable Pipeline for the Analysis of Connectomes</h2>
 <p>The Configurable Pipeline for the Analysis of Connectomes (C-PAC) is an open-source software pipeline for automated preprocessing and analysis of resting-state fMRI data. C-PAC builds upon a robust set of existing software packages including AFNI, FSL, and FreeSurfer, and makes it easy for both novice users and experts to explore their data using a wide array of analytic tools. <a href="http://fcp-indi.github.io/">[webpage]</a></p>
 
-<h2>Preprocessed Connectomes Project</h2>
-
+<h2 id="preprocessed-connectomes-project">Preprocessed Connectomes Project</h2>
 <p>The goal of the Preprocessed Connectomes Project (PCP) is to systematically preprocess datasets available in neuroimaging datasharing repositories and to share the results. The hope is to engage a broad audience of data scientists and neuroscientists in neuroimaging research by reducing the barrier to entry. <a href="http://preprocessed-connectomes-project.github.io" target="_blank">[webpage]</a></p>
 
-<h2>Characterizing inter-individual variation in the functional connectome</h2>
-
+<h2 id="characterizing-inter-individual-variation-in-the-functional-connectome">Characterizing inter-individual variation in the functional connectome</h2>
 <p>The Computational Neuroimaging Laboratory has several previous and current research projects aimed at developing methods for mapping inter-individual variation in the functional connectome:</p>
 
 <ul>
-<li>Whole brain functional parcellation: <a href="http://ccraddock.github.io/cluster_roi">[source code]</a> <a href="http://www.ncbi.nlm.nih.gov/pubmed/21769991" target="_blank">[publication]</a></li>
-<li>Predicting intrinsic brain activity: <a href="http://www.ncbi.nlm.nih.gov/pubmed/23707580" target="_blank">[publication]</a></li>
-<li>Disease state prediction: <a href="http://www.ncbi.nlm.nih.gov/pubmed/19859933" target="_blank">[publication]</a></li>
+  <li>Whole brain functional parcellation: <a href="http://ccraddock.github.io/cluster_roi">[source code]</a> <a href="http://www.ncbi.nlm.nih.gov/pubmed/21769991" target="_blank">[publication]</a></li>
+  <li>Predicting intrinsic brain activity: <a href="http://www.ncbi.nlm.nih.gov/pubmed/23707580" target="_blank">[publication]</a></li>
+  <li>Disease state prediction: <a href="http://www.ncbi.nlm.nih.gov/pubmed/19859933" target="_blank">[publication]</a></li>
 </ul>
+
 
         </section>
 
@@ -80,6 +80,7 @@
           </script>
           <script type="text/javascript">
             try {
+              window.onresize = function(){ location.reload(); }
               var pageTracker = _gat._getTracker("UA-53194826-1");
             pageTracker._trackPageview();
             } catch(err) {}
