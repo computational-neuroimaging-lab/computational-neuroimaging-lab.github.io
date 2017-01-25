@@ -4,7 +4,8 @@ title: Lab Members
 ---
 
 ## Director
-[R. Cameron Craddock, PhD](mailto:ccraddock@nki.rfmh.org) Director, Computational Neuroimaging Lab, Nathan S. Kline Institute for Psychiatric Research, Orangeburg, NY, Director of Imaging, Center for the Developing Brain, Child Mind Institute, New York, NY and Research Professor, Department of Computer Science and Engineering, NYU Tandon School of Engineering, Brooklyn, NY. <a href="https://github.com/ccraddock/ccraddock_cv/blob/master/ccraddock_cv_latest.pdf?raw=true">[CV]</a> <a href="https://github.com/ccraddock" target="_blank">[Github]</a> <a href="http://tinyurl.com/CameronCraddockCitations" target="_blank">[Google scholar]</a> <a href="https://impactstory.org/CameronCraddock" target="_blank">[Impact Story]</a> <a href="http://orcid.org/0000-0002-4950-1303" target="_blank">[ORCID]</a> <a href="http://www.researcherid.com/rid/P-1980-2014" target="_blank">[Researcher ID]</a> <a href="https://www.researchgate.net/profile/Cameron_Craddock" target="_blank">[ResearchGate]</a>
+[R. Cameron Craddock, PhD](mailto:ccraddock@nki.rfmh.org) Director, Computational Neuroimaging Lab, Nathan S. Kline Institute for Psychiatric Research, Orangeburg, NY, Director of Imaging, Center for the Developing Brain, Child Mind Institute, New York, NY and Research Professor, Department of Computer Science and Engineering, NYU Tandon School of Engineering, Brooklyn, NY. <br>
+<a href="https://github.com/ccraddock/ccraddock_cv/blob/master/ccraddock_cv_latest.pdf?raw=true" target="_blank" title="View curriculum vitae." class="fa fa-file-pdf-o fa-2x cv"></a><a href="http://tinyurl.com/CameronCraddockCitations" title="View my publications on Google Scholar page." target="_blank" class="ai ai-google-scholar-square ai-2x scholar"></a><a href="https://impactstory.org/u/0000-0002-4950-1303" target="_blank" title="Visit ImpactStory page." class="ai ai-impactstory ai-2x impactstory"></a><a href="http://orcid.org/0000-0002-4950-1303" target="_blank" title="Visit ORCID page." class="ai ai-orcid ai-2x orcid"></a><a href="https://www.researchgate.net/profile/Cameron_Craddock" target="_blank" title="Visit ResearchGate page." class="ai ai-researchgate ai-2x researchgate"></a><a href="http://www.slideshare.net/CameronCraddock" target="_blank" title="Visit presentations on SlideShare." class="fa fa-slideshare fa-2x slideshare"></a><a href="https://www.ncbi.nlm.nih.gov/sites/myncbi/richard.craddock.1/bibliography/47405182/public/?sort=date&direction=ascending" title="View my publications on PubMed." class="ai ai-pubmed ai-2x pubmed"></a><span id='badgeCont741760'><script src='http://labs.researcherid.com/mashlets?el=badgeCont741760&mashlet=badge&showTitle=false&className=a&rid=P-1980-2014&size=small'></script></span><a href="https://github.com/ccraddock" title="Visit Github page." target="_blank" class="fa fa-github fa-2x github"></a>
 
 ## Faculty
 
@@ -12,15 +13,12 @@ title: Lab Members
 
 [Sang Han Lee, PhD](mailto:SHLee@NKI.RFMH.ORG) - Research Scientist, Nathan S. Kline Institute for Psychiatric Research, Orangeburg, NY.
 
-[Dave Lewis, PhD](mailto:LEWIS@NKI.RFMH.ORG) - Research Scientist, Nathan S. Kline Institute for Psychiatric Research, Orangeburg, NY.
-
 [Jordan Muraskin, PhD](mailto:jordan.muraskin@nki.rfmh.org) - Post Doctoral Fellow, Nathan S. Kline Institute for Psychiatric Research, Orangeburg, NY. <a href="https://github.com/jordanmuraskin">[Github]</a> <a href="https://scholar.google.com/citations?user=gMmDkl0AAAAJ&hl=en&oi=ao">[Google Scholar]</a>
-
-[James Pooley, PhD](mailto:James.Pooley@childmind.org) - Post Doctoral Fellow, Child Mind Institute, New York, NY. <a href="https://github.com/jamespooley">[Github]</a>
 
 ## Staff
 
-[Carol Froehlich, MS](mailto:Caroline.Froehlich@childmind.org) - Research Assistant, Nathan S. Kline Institute for Psychiatric Research, Orangeburg, NY. <a href="https://scholar.google.com/citations?user=pTllHvAAAAAJ&hl=en&oi=ao" target="_blank">[Google scholar]</a><a href="https://github.com/carolFrohlich" target="_blank">[Github]</a>
+[Carol Froehlich, MS](mailto:Caroline.Froehlich@childmind.org) - Assistant Research Scientist, Child Mind Institute, New York, NY. <br>
+<a href="https://scholar.google.com/citations?user=pTllHvAAAAAJ&hl=en&oi=ao" title="View my publications on Google Scholar page." target="_blank" class="ai ai-google-scholar-square ai-2x scholar"> <a href="https://github.com/carolFrohlich" title="Visit Github page." target="_blank" class="fa fa-github fa-2x github"></a>
 
 [Steven Giavasis, MS](mailto:steven.giavasis@childmind.org) - Research Engineer, Child Mind Institute, New York, NY.  <a href="https://github.com/sgiavasis" target="_blank">[Github]</a>
 
@@ -28,13 +26,20 @@ title: Lab Members
 
 [John Pellman, BA](mailto:john.pellman@childmind.org) - Research Assistant, Child Mind Institute, New York, NY. <a href="https://github.com/jpellman" target="_blank">[Github]</a>
 
+[Alison Walensky, MS](mailto:alison.walensky@childmind.org) - Research Operations Coordinator, Child Mind Institute, New York, NY. <a href="https://github.com/awalensky" target="_blank">[Github]</a>
 
 ## Former Members
 
-Daniel J. Clark, MS - currently Programmer, <a href="https://www.knewton.com/">Knewton</a>, New York, NY.  <a href="https://github.com/dclark87" target="_blank">[Github]</a>
+Daniel J. Clark, MS - Research Engineer, Child Mind Institute, New York, NY. <a href="https://github.com/dclark87" target="_blank">[Github]</a>
 
-Amalia McDonald, BA - currently, graduate student, Department of Psychology, University of Virginia, Charlottesville, VA. <a href="https://github.com/mcdoar9" target="_blank">[Github]</a>
+Dave Lewis, PhD - formerly Research Scientist, Nathan S. Kline Institute for Psychiatric Research, Orangeburg, NY.
 
-Benjamin Puccio, BS - currently, medical student, Krakow, Poland.
+Amalia McDonald, BA - formerly, Research Assistant, Nathan S. Kline Institute for Psychiatric Research, Orangeburg, NY. <a href="https://github.com/mcdoar9" target="_blank">[Github]</a>
 
-[Nicholas T. Van Dam, PhD](http://www.nicholastvandam.com) - currently Post Doctoral Fellow, Department of Psychiatry, Ichan School of Medicine at Mount Sinai, New York, NY.
+James Pooley, PhD - formerly Post Doctoral Fellow, Child Mind Institute, New York, NY. <a href="https://github.com/jamespooley">[Github]</a>
+
+Benjamin Puccio, BS - formerly, Research Assistant, Nathan S. Kline Institute for Psychiatric Research, Orangeburg, NY.
+
+Nicholas T. Van Dam, PhD - formerly, Post Doctoral Fellow, Nathan S. Kline Institute for Psychiatric Research, Orangeburg, NY.
+
+
