@@ -23,9 +23,8 @@ The Computational Neuroimaging Lab is a subdivision of the [Center for Biomedica
 
 ## News
 
-- <a href="opportunities.html" target="_blank">Two Post-Doctoral Fellow positions are available in the CNL</a>
+- <a href="opportunities.html" target="_blank">Post-Doctoral fellow, data analyst, and internship positions are available in the CNL</a>
 
 - CNL's real time fMRI research featured in [everdayHEALTH](http://everydayhealth.com) report by Dr. Sanjay Gupta: [Watch it here](http://bcove.me/l5xpnmbv)
 
 - CNL Director Cameron Craddock receives 2013 NIMH Biobehavioral Research Award for Innovative New Scientists (NIMH BRAINS) R01 - See more at: [NIMH Director's Blog](http://www.nimh.nih.gov/about/director/2014/brains-a-new-research-generation.shtml), [CMI Press Release](http://www.childmind.org/en/posts/press-releases/2013-11-14-nimh-recognizes-cameron-craddock)
-
