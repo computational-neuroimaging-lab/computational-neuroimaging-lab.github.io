@@ -2,7 +2,10 @@
 layout: page
 title: Opportunities
 ---
-## Open positions in the Computational Neuroimaging Lab
+
+New positions coming soon.
+
+<!-- ## Open positions in the Computational Neuroimaging Lab
 - #### [Post-Doctoral Fellow @ CMI:  Evaluation and development of neuroimaging data processing and analysis methods.](#PD_CPAC)
 - #### [Post-Doctoral Fellow @ NKI: Probing brain networks with real-time fMRI](#PD_NFB)
 - #### [Data Analyst @ NKI](#DA)
@@ -74,3 +77,4 @@ Employment at Will Relationship: This position description does not constitute a
 CMI reserves the right to modify the job description and/or reporting relationship at any time.
 
 CMI is an Equal Opportunity Employer. CMI is committed to recruiting and maintaining a diverse staff; individuals from all backgrounds are strongly encouraged to apply.
+ -->
