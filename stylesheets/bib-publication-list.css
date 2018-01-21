@@ -5,9 +5,9 @@ span.undefined { color:red; }
 .year { position: relative; height: 100%; border-bottom: 1px solid black; display: inline-block;}
 .yearlabel { position: absolute; bottom: -20px; text-align: center; width: 100%; font-size: smaller;}
 .pub { border: 1px solid white; border-right: 1px solid white; background-color: #eee; }
-.conference { background-color: rgb(245,128,37); }
-.inproceedings { background-color: #ccf; }
-.article { background-color: #beb; }
+.conference { background-color: #ffd600; }
+.inproceedings { background-color: #f8971f; }
+.article { background-color: #bf5700; }
 .incollection { background-color: #eaa; }
 .inbook { background-color: #eaa; }
 
@@ -15,8 +15,8 @@ span.undefined { color:red; }
 .unpublished { background-color: #eae; }
 .patent { background-color: #eae; }
 .mastersthesis { background-color: #00c4d9; }
-.techreport { background-color: #ffd457; }
-.preprint { background-color: #ffd457; }
+.techreport { background-color: #ffd600; }
+.preprint { background-color: #333f48; }
 
 .techreport { background-color: #b77; }
 .legend .pub { width: 10px; height: 10px; display: inline-block; margin: 0 5px 0 15px;}

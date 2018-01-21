@@ -53,8 +53,8 @@ body {
   padding: 50px 0;
   font-size: 1em;
   line-height: 1.5;
-  background: #A7BBB1 url(../images/body-bg_g.png) 0 0 repeat;
-  /*background: #A7BBB1;*/
+/*  background: #005f86 url(../images/body-bg_g.png) 0 0 repeat;*/
+  background: #333f48;
   font-family: 'Helvetica Neue', Helvetica, Arial, serif;
   /*text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);*/
   color: #6d6d6d;
@@ -62,10 +62,10 @@ body {
 
 a {
   /* color: #d5000d*/
-  color: #275526;
+  color: #bf5700;
 }
 a:hover {
-  color: #275526;
+  color: #bf5700;
   /*color: #c5000c*/;
 }
 
@@ -78,7 +78,7 @@ header h1 {
   font-family: 'Chivo', 'Helvetica Neue', Helvetica, Arial, serif; font-weight: 900;
   letter-spacing: -1px;
   font-size: 32px;
-  color: #275526;
+  color: #bf5700;
   /*color: #d75920;*/
   line-height: 1.2;
 }
@@ -244,6 +244,11 @@ a.button span {
 .bibtitle{
   font-weight:400;
 }
+
+.bibnote{
+  font-weight:400;
+  font-style: italic;
+}
 .cv,.cv:hover,.cv:visited { color:#ad0000; padding:4px 4px 4px 4px; font-size: 2em;text-decoration:none;}
 .github,.github:hover,.github:visited { color:#000; font-size: 2em; padding:4px 4px 4px 4px; text-decoration:none;}
 .pubmed,.pubmed:hover,.pubmed:visited { color:#265089; font-size: 2em;text-decoration:none;}
@@ -399,13 +404,14 @@ h1 {
 h2 {
   font-size: 22px;
   font-weight: bold;
-  color: #275526;
+  /*color: #bf5700;*/
+  color: #333f48;
   margin-bottom: 8px;;
 }
 
 h3 {
   /*color: #d5000d;*/
-  color: #275526;
+  color: #bf5700;
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 8px;

@@ -20,4 +20,13 @@ The Computational Neuroimaging Laboratory has several previous and current resea
 - Predicting intrinsic brain activity: <a href="http://www.ncbi.nlm.nih.gov/pubmed/23707580" target="_blank">[publication]</a>
 - Disease state prediction: <a href="http://www.ncbi.nlm.nih.gov/pubmed/19859933" target="_blank">[publication]</a>
 
+## Data Sharing
+The Computational Neuroimaging Laboratory helps maintain and shares data through the <a href="http://fcon_1000.projects.nitrc.org/">International Neuroimaging Datasharing Intiative</a>. This includes administering a <a href="https://github.com/FCP-INDI/fcp_indi_bucket_maintenance">public S3 bucket to for hosting the data</a>. Datasets contributed to in whole or in part by the CNL include:
 
+- <a href="http://fcon_1000.projects.nitrc.org/indi/CoRR/html/ibatrt.html">Consortium for Reliability and Reproducibility Intrinsic Brain Activity Test re-Test dataset</a> - Structural and functional MRI, including two resting state fMRI and two multi-source interference task fMRI scans for 36 participants, 14 of which were scanned during a second session.
+- <a href="http://fcon_1000.projects.nitrc.org/indi/enhanced/index.html">Nathan Kline Institute Enhanced Rockland Sample</a> - Structural and functional scans including a real time fMRI neurofeedback experiment and deep phenotyping on 200 participants 18 - 45 years old, as a part of the larger Rockland Sample dataset that includes deep phenotyping and a connectomic scanning on over 1,500 particpants aged 6 - 90.
+- <a href="http://fcon_1000.projects.nitrc.org/indi/hbn_ssi/"> Child Mind Institute Healthy Brain Network Serial Scanning Initiative</a> - While a part of the CMI, the CNL designed and oversaw the collection of this datasets, which includes structural and functional MRI on 13 adult participants (ages: 21-42), repeatedly scanned under each of four scan conditions across 12 sessions.
+- <a href="http://fcon_1000.projects.nitrc.org/indi/hbn_ssi/"> Child Mind Institute Healthy Brain Network</a> - While a part of the CMI, the CNL designed and oversaw the collection of this datasets, which aims to collect structural and functional MRI on over 10,000 children with a variety of mental health and learning disorders (ages 5-21).
+
+## OpenCogLab Repository
+A repository of openly shared computerized experiments for assessing cognitive function. <a href="http://opencoglabrepository.github.io/index.html" target="_blank">[webpage]</a>

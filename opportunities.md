@@ -3,7 +3,9 @@ layout: page
 title: Opportunities
 ---
 
-New positions coming soon.
+While the CNL does not currently have any openings, we are always open to internships and short projects with undergraduate students, graduate students, and volunteers.
+
+Please email [cameron.craddock@austin.utexas.edu](mailto://cameron.craddock@austin.utexas.edu) to apply.
 
 <!-- ## Open positions in the Computational Neuroimaging Lab
 - #### [Post-Doctoral Fellow @ CMI:  Evaluation and development of neuroimaging data processing and analysis methods.](#PD_CPAC)

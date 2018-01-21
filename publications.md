@@ -15,7 +15,7 @@ title: Publications
 <script type="text/javascript" src="javascripts/bib-list.js"></script>
 <script type="text/javascript">
     $(document).ready(function() {
-        bibtexify("cnl_pubs.bib", "pubTable",{'tweet': 'RCCraddock'});
+        bibtexify("https://raw.githubusercontent.com/ccraddock/craddock_publications_bibtex/master/craddock_publications.bib", "pubTable",{'tweet': 'RCCraddock'});
     });
 </script>
 

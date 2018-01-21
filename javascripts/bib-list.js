@@ -875,7 +875,7 @@ function BibTex(options)
 		'phdthesis',
 		'proceedings',
 		'techreport',
-    'preprint',
+        'preprint',
 		'unpublished'
 	);
 	this.authorstring = 'VON LAST, JR, FIRST';
@@ -1129,6 +1129,11 @@ BibTex.prototype = {
             if ('@' == ret['entryType'].substring(0,1)) {
                 ret['entryType'] = substr(ret['entryType'], 1);
             }
+
+            if (ret['cite'].includes('preprint')) {
+                ret['entryType'] = 'preprint';
+            }
+
             if (this._options['validate']) {
                 if (!this._checkAllowedEntryType(ret['entryType'])) {
                     this._generateWarning('WARNING_NOT_ALLOWED_ENTRY_TYPE', ret['entryType'], entry+'}');
@@ -2467,6 +2472,8 @@ var bibtexify = (function($) {
             .replace(/\\aa\{\}/g, '&aring;')
             .replace(/\\"a/g, '&auml;')
             .replace(/\\"u/g, '&uuml;')
+            .replace(/\\ua/g, '&abreve;')
+            .replace(/\\u\{a\}/g, '&abreve;')
             .replace(/\\"\{o\}/g, '&ouml;')
             .replace(/\\'e/g, '&eacute;')
             .replace(/\\"e/g, '&euml;')
@@ -2482,12 +2489,14 @@ var bibtexify = (function($) {
             .replace(/\$\^rd\$/g,'rd')
             .replace(/\$\^st\$/g,'st')
             .replace(/\$\^nd\$/g,'nd')
+            .replace(/\\emph/g, '')
             .replace(/\\textquoteright/g, '\'')
             .replace(/\{\\textquoteright\}/g, '\'')
             .replace(/\\textsuperscriptst/g, 'st' )
             .replace(/\\textsuperscript\{st\}/g,'st')
             .replace(/\\textsuperscript\{nd\}/g,'nd')
             .replace(/\\textsuperscript\{th\}/g,'th')
+            .replace(/\\textsuperscriptth/g,'th')
             .replace(/\$/g,'')
             .replace(/--/g, '&ndash;');
         return str;
@@ -2528,22 +2537,28 @@ var bibtexify = (function($) {
             // itemStr += bib2html.doi(entryData);
             // itemStr += bib2html.pmid(entryData);
             // Cameron add Buttons
-            itemStr += "<br>"+bib2html.addbuttons(entryData,bib);
+            itemStr += bib2html.addbuttons(entryData,bib);
             return itemStr.replace(/undefined/g,
                                    '<span class="undefined">missing<\/span>');
         },
         // converts the given author data into HTML
         authors2html: function(authorData) {
             var authorsStr = '';
-            for (var index = 0; index < authorData.length; index++) {
-                if (index > 0) { authorsStr += ", "; }
-                authorsStr += authorData[index].first +" " +authorData[index].last;
+            if( typeof authorData != "undefined"){
+                for (var index = 0; index < authorData.length; index++) {
+                    if (index > 0) { authorsStr += ", "; }
+                    authorsStr += authorData[index].first +" " +authorData[index].last;
+                }
             }
+            else{
+                authorStr = "undefined"
+            }
+
             return htmlify(authorsStr);
         },
         addbuttons: function(entryData, bib) {
             
-            var buttonStr = '';
+            var buttonStr = '<br>';
 
             buttonStr += bib2html.doi(entryData, bib);
             buttonStr += bib2html.bibtex(entryData, bib);
@@ -2642,6 +2657,7 @@ var bibtexify = (function($) {
                     }
                 }
                 else{
+                    // buttonStr = " " + '<span class="bibnote">' + htmlify(noteStr) + '</span>' + buttonStr;
                     console.log("didnt match "+noteStr)
                 }
             }
@@ -2683,7 +2699,7 @@ var bibtexify = (function($) {
         comment: function(entryData) {
             var itemStr = '';
             if (entryData.comment) {
-                itemStr += ' <strong>' + entryData.comment + '<\/strong>';
+                itemStr += ' <span class="bibnote">' + entryData.comment + '<\/span>';
             }
             return itemStr;
         },
@@ -2953,8 +2969,8 @@ var bibtexify = (function($) {
             }
             return 0;
         });
-        console.log(max);
-        console.log(yearstats);
+        // console.log(max);
+        // console.log(yearstats);
         var chartIdSelector = "#" + this.$pubTable[0].id + "pubchart";
         var pubHeight = $(chartIdSelector).height()/max;// - 2;
 
@@ -2964,7 +2980,7 @@ var bibtexify = (function($) {
         }
 
         var chartHeight = (pubHeight+2)*max;
-        console.log(chartHeight);
+        // console.log(chartHeight);
         var styleStr = chartIdSelector +" .year { width: " +
                         (100.0/yearstats.length) + "%; }" +
                         chartIdSelector + " .pub { height: " + pubHeight + "px; }";
