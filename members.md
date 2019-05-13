@@ -10,7 +10,8 @@ title: Lab Members
 ## Postdoctoral Fellows
 [Chris Foulon, PhD](mailto:chris.foulon@austin.utexas.edu) - Postdoctoral Research Fellow
 
-[Timothy Weng, PhD](mailto:timothy.weng@austin.utexas.edu) - Postdoctoral Research Fellow
+[Timothy Weng, PhD](mailto:timothy.weng@austin.utexas.edu) - Postdoctoral Research Fellow <br>
+<a href="https://github.com/tbweng/cv/blob/master/build/cv.pdf?raw=true" target="_blank" title="View curriculum vitae." class="fa fa-file-pdf-o fa-2x cv"></a><a href="https://scholar.google.com/citations?user=FLqI1VQAAAAJ&hl=en" title="View my publications on Google Scholar page." target="_blank" class="ai ai-google-scholar-square ai-2x scholar"></a><a href="https://github.com/tbweng" title="Visit Github page." target="_blank" class="fa fa-github fa-2x github"></a>
 
 ## Students
 [Abigail Dowd](mailto:dowda@utexas.edu) - PhD Candidate, Electrical and Computer Engineering
