@@ -23,7 +23,7 @@ title: Lab Members
 
 
 
-<!-- ## Former Members
+## Former Members
 
 - Daniel J. Clark, MS - Research Engineer, Child Mind Institute, New York, NY. <a href="https://github.com/dclark87" target="_blank">[Github]</a>
 - Dave Lewis, PhD - formerly Research Scientist, Nathan S. Kline Institute for Psychiatric Research, Orangeburg, NY.
@@ -39,4 +39,4 @@ title: Lab Members
 - Chris Foulon - formerly, Postdoctoral Research Fellow, The University of Texas at Austin, TX
 - Abigail Dowd - formerly, PhD Candidate, Electrical and Computer Engineering, The University of Texas at Austin, TX.
 - Manwitha Dodla - formerly, Research Assistant, The University of Texas at Austin, TX.
-- Alison Walensky, MS - formerly Research Operations Coordinator, Child Mind Institute, New York, NY. <a href="https://github.com/awalensky" target="_blank">[Github]</a> -->
+- Alison Walensky, MS - formerly Research Operations Coordinator, Child Mind Institute, New York, NY. <a href="https://github.com/awalensky" target="_blank">[Github]</a>
